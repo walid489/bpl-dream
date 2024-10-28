@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bpl dream</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="svg/logo.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- nav start -->
+    <nav id="navigation">
+      <div class="container">
+        <div class="navbox">
+          <a href="#" class="navbrand"><img src="svg/logo.svg" alt="logo" /></a>
+          <div class="navlist">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">fixture</a></li>
+              <li><a href="#">teams</a></li>
+              <li><a href="#">schedules</a></li>
+              <li>
+                <p class="coinbox">
+                  <span class="coinballance">0</span> coin
+                  <img src="svg/coin.svg" alt="coin" />
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <main>
+      <!-- banner start -->
+      <section id="banner">
+        <div class="container">
+          <div class="brnbox">
+            <img src="svg/bnrcricket.svg" alt="bnrcricket" />
+            <h1>Assemble Your Ultimate Dream 11 Cricket Team</h1>
+            <h4>Beyond Boundaries Beyond Limits</h4>
+            <button type="button" class="claimbtn">Claim Free Credit</button>
+          </div>
+        </div>
+      </section>
+      <!-- banner end -->
+      <!-- player start -->
+      <section id="player">
+        <div class="container">
+          <div class="title">
+            <div class="left">
+              <h2>
+                <p class="leftstatus">Available Players</p>
+                <span class="selected">(/12)</span>
+              </h2>
+            </div>
+            <div class="right">
+              <button type="button" class="playeravailable active">
+                Available
+              </button>
+              <button type="button" class="playerselected">
+                Selected (<span class="selectionnumber"></span>/12)
+              </button>
+            </div>
+          </div>
+          <div class="playerbox">
+            <div class="playeritem">
+              <img
+                src="images/player1.png"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Viral Kohli</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button
+                    type="button"
+                    class="choose"
+                    imgclass="images/player1.png"
+                  >
+                    Choose Player
+                  </button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/janina.webp"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Darrell Steward</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button
+                    type="button"
+                    class="choose"
+                    imgclass="images/janina.webp"
+                  >
+                    Choose Player
+                  </button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/tomlatham.jpeg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Tom Latham</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/tomlatham.jpeg">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/msdhoni.jpg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >MS Dhoni</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>
+                    Price: $<label for="player4" class="rate">1500000</label>
+                  </p>
+                  <button type="button" id="player4" class="choose" imgclass="images/msdhoni.jpg">
+                    Choose Player
+                  </button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/shapik-khan.webp"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Shapik Khan</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">00</span></p>
+                  <button type="button" class="choose" imgclass="images/shapik-khan.webp">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/josbutter.jpg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Jos Butter</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/josbutter.jpg">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/tamim.jpg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Tamim</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/tamim.jpg">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/mashrafe.webp"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Mashrafe Mortaza</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/mashrafe.webp">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/mahedihasan.jpg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Mahedi Hasan</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/mahedihasan.jpg">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/litondas.avif"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Liton Das</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/litondas.avif">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/shaheed.jpg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Shaheed Afridi</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/shaheed.jpg">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+            <div class="playeritem">
+              <img
+                src="images/soud.jpg"
+                alt="player1.png"
+                class="playerimage"
+              />
+              <h3>
+                <img src="svg/user.svg" alt="user.svg" /><span
+                  >Soud Shakeel</span
+                >
+              </h3>
+              <div class="playertitle">
+                <p>
+                  <img src="svg/flug.svg" alt="flug.svg" /> <span>indian</span>
+                </p>
+                <span class="scope">all-rounder</span>
+              </div>
+              <div class="ratebox">
+                <h3>Rating</h3>
+                <h4>
+                  <p>Left-Hand-Bat</p>
+                  <span class="right">Left-Hand-Bat</span>
+                </h4>
+                <h4 class="ratend">
+                  <p>Price: $<span class="rate">1500000</span></p>
+                  <button type="button" class="choose" imgclass="images/soud.jpg">Choose Player</button>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="selectionbox"></div>
+        </div>
+      </section>
+      <!-- player end -->
+      <!-- newslatter start -->
+      <section id="newslatter">
+        <div class="container">
+          <div class="newsbox">
+            <div class="item">
+              <h2>Subscribe to our Newsletter</h2>
+              <p>Get the latest updates and news right in your inbox!</p>
+              <form action="#">
+                <input type="email" placeholder="Enter your email" />
+                <button type="submit">
+                  <img src="svg/subscribe.svg" alt="subscribe.svg" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- newslatter end -->
+    </main>
+    <!-- footer start -->
+    <footer id="footer">
+      <div class="container">
+        <div class="logo"><img src="svg/footlogo.svg" alt="footlogo.svg"></div>
+        <div class="footbox">
+          <div class="item">
+            <h2>About Us</h2>
+            <p>We are a passionate team dedicated to providing the best services to our customers.</p>
+          </div>
+          <div class="item">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="item">
+            <h2>Content</h2>
+            <p>Subscribe to our newsletter for the latest updates.</p>
+            <form action="#">
+              <input type="email" placeholder="Enter your email" required="required">
+              <button type="submit"><img src="svg/subscribe.svg" alt="subscribe.svg"></button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <a href="#">@2024 Your Company All Rights Reserved.</a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
